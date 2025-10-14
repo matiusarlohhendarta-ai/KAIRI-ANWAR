@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tugas HTML</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  /* Bagian atas */
+  .atas {
+    background-color: limegreen;
+    color: black;
+    padding: 40px 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  /* Bagian tengah */
+  .tengah {
+    background-color: aqua;
+    padding: 40px 0;
+    position: relative;
+  }
+
+  /* Kotak hijau di kiri dan kanan */
+  .kotak {
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    display: inline-block;
+    margin: 0 100px;
+  }
+
+  /* Bagian bawah (table baru) */
+  .bawah {
+    background-color: aqua;
+    padding: 30px 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    width: 50%;
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+  <div class="atas">
+    SMAK SANTO<br>SANISLAUS SURABAYA
+  </div>
+
+  <div class="tengah">
+    <div class="kotak"></div>
+    <span style="font-size: 20px;">TIK</span>
+    <div class="kotak"></div>
+  </div>
+
+  <div class="bawah">
+    <table>
+      <tr>
+        <td>
+          <img src="foto1.jpg" alt="Logo Kiri"><br>
+          INSTAGRAM
+        </td>
+        <td>
+          <img src="foto2.jpg" alt="Logo Kanan"><br>
+          INSTAGRAM
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
