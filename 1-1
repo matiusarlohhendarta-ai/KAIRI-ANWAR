@@ -1,0 +1,73 @@
+https://kelra.w3spaces.com/saved-from-Tryit-2025-10-14.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Tugas</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Bagian atas */
+  .atas {
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* Bagian bawah */
+  .bawah {
+    background-color: darkgreen;
+    color: white;
+    height: 200px;
+    position: relative;
+  }
+
+  /* Logo kiri bawah */
+  .logo-kiri {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+  }
+
+  /* Logo kanan bawah */
+  .logo-kanan {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+  }
+
+  img {
+    width: 70px; /* ubah ukuran logo di sini */
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="atas">
+  SMAK SANTO STANISLAUS SURABAYA
+</div>
+
+<div class="bawah">
+  <div class="logo-kiri">
+    <img src="foto1.jpg" alt="Logo Kiri">
+    <p>INSTAGRAM</p>
+  </div>
+
+  <div class="logo-kanan">
+    <img src="foto2.jpg" alt="Logo Kanan">
+    <p>TIK</p>
+  </div>
+</div>
+
+</body>
+</html>
