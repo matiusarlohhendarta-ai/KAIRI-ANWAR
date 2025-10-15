@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas HTML TIK</title>
+
+  <style>
+    /* Reset dasar */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: white;
+    }
+
+    /* ====== BAGIAN ATAS ====== */
+    .atas {
+      background-color: #9cd3f8; /* biru muda */
+      text-align: center;
+      padding: 25px 10px;
+    }
+
+    .atas h2 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .atas h3 {
+      font-size: 22px;
+      font-weight: normal;
+    }
+
+    /* ====== BAGIAN TENGAH ====== */
+    .tengah {
+      background-color: #a9e4a8; /* hijau muda */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 60px;
+    }
+
+    .kolom {
+      text-align: center;
+      width: 200px;
+    }
+
+    .kolom img {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+    }
+
+    .kolom p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .judul-tengah {
+      font-size: 36px;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    /* ====== BAGIAN BAWAH ====== */
+    .bawah {
+      background-color: #9cd3f8;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 14px;
+    }
+
+    .bawah b {
+      color: #003366;
+    }
+
+    /* ====== RESPONSIVE (untuk HP) ====== */
+    @media (max-width: 600px) {
+      .tengah {
+        flex-direction: column;
+      }
+
+      .kolom {
+        margin-bottom: 20px;
+      }
+
+      .judul-tengah {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bagian Atas -->
+  <div class="atas">
+    <h2>SMAK St. Stanislaus</h2>
+    <h3>& Informatika UKWMS</h3>
+  </div>
+
+  <!-- Bagian Tengah -->
+  <div class="tengah">
+    <div class="kolom">
+      <img src="informatika.png" alt="Logo Informatika">
+      <p>@smak_santo_stanislaus</p>
+    </div>
+
+    <div class="judul-tengah">TIK</div>
+
+    <div class="kolom">
+      <img src="logo_sma.png" alt="Logo SMA">
+      <p>@informatika.ukwms</p>
+    </div>
+  </div>
+
+  <!-- Bagian Bawah -->
+  <div class="bawah">
+    <p>© copyright <b>Nama_Siswa</b></p>
+  </div>
+
+</body>
+</html>
