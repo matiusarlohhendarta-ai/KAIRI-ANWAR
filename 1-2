@@ -1,85 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<title>Tugas HTML</title>
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas HTML TIK</title>
 
-  /* Bagian atas */
-  .atas {
-    background-color: limegreen;
-    color: black;
-    padding: 40px 0;
-    font-size: 28px;
-    font-weight: bold;
-  }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  /* Bagian tengah */
-  .tengah {
-    background-color: aqua;
-    padding: 40px 0;
-    position: relative;
-  }
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: white;
+    }
 
-  /* Kotak hijau di kiri dan kanan */
-  .kotak {
-    width: 150px;
-    height: 150px;
-    background-color: darkgreen;
-    display: inline-block;
-    margin: 0 100px;
-  }
+    /* ====== BAGIAN ATAS ====== */
+    .atas {
+      background-color: #9cd3f8; /* biru muda */
+      text-align: center;
+      padding: 25px 10px;
+    }
 
-  /* Bagian bawah (table baru) */
-  .bawah {
-    background-color: aqua;
-    padding: 30px 0;
-  }
+    .atas h2 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
 
-  table {
-    width: 100%;
-  }
+    .atas h3 {
+      font-size: 22px;
+      font-weight: normal;
+    }
 
-  td {
-    width: 50%;
-    text-align: center;
-  }
+    /* ====== BAGIAN TENGAH ====== */
+    .tengah {
+      background-color: #a9e4a8; /* hijau muda */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 60px;
+    }
 
-  img {
-    width: 150px;
-    height: auto;
-  }
-</style>
+    .kolom {
+      text-align: center;
+      width: 220px;
+    }
+
+    .kolom img {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+    }
+
+    /* IG di bawah gambar */
+    .ig {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      gap: 5px;
+    }
+
+    .ig img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ig p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .judul-tengah {
+      font-size: 36px;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    /* ====== BAGIAN BAWAH ====== */
+    .bawah {
+      background-color: #9cd3f8;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 14px;
+    }
+
+    .bawah b {
+      color: #003366;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 600px) {
+      .tengah {
+        flex-direction: column;
+      }
+
+      .kolom {
+        margin-bottom: 20px;
+      }
+
+      .judul-tengah {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
+  <!-- Bagian Atas -->
   <div class="atas">
-    SMAK SANTO<br>SANISLAUS SURABAYA
+    <h2>SMAK St. Stanislaus</h2>
+    <h3>& Informatika UKWMS</h3>
   </div>
 
+  <!-- Bagian Tengah -->
   <div class="tengah">
-    <div class="kotak"></div>
-    <span style="font-size: 20px;">TIK</span>
-    <div class="kotak"></div>
+    <div class="kolom">
+      <img src="informatika.png" alt="Logo Informatika">
+      <div class="ig">
+        <img src="ig.png" alt="Instagram Logo">
+        <p>@smak_santo_stanislaus</p>
+      </div>
+    </div>
+
+    <div class="judul-tengah">TIK</div>
+
+    <div class="kolom">
+      <img src="logo_sma.png" alt="Logo SMA">
+      <div class="ig">
+        <img src="ig.png" alt="Instagram Logo">
+        <p>@informatika.ukwms</p>
+      </div>
+    </div>
   </div>
 
+  <!-- Bagian Bawah -->
   <div class="bawah">
-    <table>
-      <tr>
-        <td>
-          <img src="foto1.jpg" alt="Logo Kiri"><br>
-          INSTAGRAM
-        </td>
-        <td>
-          <img src="foto2.jpg" alt="Logo Kanan"><br>
-          INSTAGRAM
-        </td>
-      </tr>
-    </table>
+    <p>© copyright <b>Nama_Siswa</b></p>
   </div>
 
 </body>
