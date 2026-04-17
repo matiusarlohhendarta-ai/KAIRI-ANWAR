@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+  <h1>Kontak Kami</h1>
+
+  <!-- MAP -->
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18..."
+    width="100%" height="300" style="border:0;">
+  </iframe>
+
+  <!-- FORM -->
+  <form class="mt-4">
+    <div class="mb-3">
+      <label>Nama</label>
+      <input type="text" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label>Email</label>
+      <input type="email" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label>Pilih Divisi</label>
+      <select class="form-select">
+        <option>Divisi 1</option>
+        <option>Divisi 2</option>
+      </select>
+    </div>
+
+    <button class="btn btn-primary">Submit</button>
+  </form>
+
+</div>
+
+</body>
+</html>
